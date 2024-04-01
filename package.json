@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": "./configs/index.js",
+    "./react": "./configs/react.js"
+  },
   "scripts": {
     "test": "eslint ."
   },
