@@ -11,9 +11,6 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "keywords": [
-    "eslint"
-  ],
   "license": "MIT",
   "dependencies": {
     "@eslint/js": "^9.16.0",
@@ -33,5 +30,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BcRikko/eslint-config-bcrikko.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/BcRikko/eslint-config-bcrikko/issues"
+  },
+  "homepage": "https://github.com/BcRikko/eslint-config-bcrikko",
+  "keywords": [
+    "eslint"
+  ]
 }
