@@ -10,6 +10,18 @@ updates:
     schedule:
       interval: "daily"
       time: "02:00"
+    groups:
+      eslint-deps:
+        patterns:
+          - "eslint"
+          - "@eslint*"
+      tslint-deps:
+        patterns:
+          - "typescript-eslint"
+          - "@typescript-eslint*"
+      stylistic-deps:
+        patterns:
+          - "@stylistic*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
