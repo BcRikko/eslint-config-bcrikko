@@ -2,7 +2,7 @@
   "name": "eslint-config-bcrikko",
   "description": "B.C.Rikkoが使っているESLintルール",
   "author": "B.C.Rikko",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "exports": {
     ".": "./configs/index.js",
