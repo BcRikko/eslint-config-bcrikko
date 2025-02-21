@@ -9,6 +9,7 @@ const config = [
   // https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
   js.configs.recommended,
   {
+    files: ['*.js', '*.jsx', '*.mjs', '*.cjs'],
     rules: {
       // アロー関数の {} を省略を許可する。
       // https://eslint.org/docs/latest/rules/arrow-body-style

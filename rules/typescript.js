@@ -10,6 +10,7 @@ const typescriptConfig = [
   // https://github.com/typescript-eslint/typescript-eslint
   ...typescript.configs.recommended,
   {
+    files: ['*.ts', '*.tsx', '*.mts', '*.cts'],
     rules: {
       // メンバ変数/メソッドの順序を強制する。
       // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/member-ordering.md
