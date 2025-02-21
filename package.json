@@ -3,11 +3,13 @@
   "description": "B.C.Rikkoが使っているESLintルール",
   "author": "B.C.Rikko",
   "version": "1.2.1",
+  "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./configs/index.js",
     "./react": "./configs/react.js"
   },
+  "types": "./index.d.ts",
   "scripts": {
     "lint": "eslint ."
   },
@@ -20,12 +22,12 @@
     "@stylistic/eslint-plugin-ts": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
-    "eslint": "^9.16.0",
+    "eslint": "^9.20.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "typescript-eslint": "^8.16.0"
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "typescript-eslint": "^8.24.1"
   },
   "repository": {
     "type": "git",

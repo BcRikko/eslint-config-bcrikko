@@ -14,9 +14,6 @@ import typescriptStyle from '../rules/typescriptStyle.js'
  */
 const baseConfig = [
   {
-    files: ['**/*.{js,ts,mjs,mts,cjs,cts,jsx,tsx}'],
-  },
-  {
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
