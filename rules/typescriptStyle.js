@@ -1,18 +1,18 @@
-import stylisticTs from '@stylistic/eslint-plugin-ts'
+import stylistic from '@stylistic/eslint-plugin'
 
 /**
  * @stylisticのルールを設定する。
- * https://eslint.style/packages/ts
+ * https://eslint.style/packages/default
  * @type {import("eslint").Linter.Config[]}
  */
 const style = [
   {
     plugins: {
-      '@stylistic/ts': stylisticTs,
+      '@stylistic': stylistic,
     },
 
     /**
-     * @type {import("@stylistic/eslint-plugin-ts").RuleOptions}
+     * @type {import("@stylistic/eslint-plugin").RuleOptions}
      */
     rules: {},
   },

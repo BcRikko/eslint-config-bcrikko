@@ -1,18 +1,18 @@
-import stylisticJsx from '@stylistic/eslint-plugin-jsx'
+import stylistic from '@stylistic/eslint-plugin'
 
 /**
  * @stylisticのルールを設定する。
- * https://eslint.style/packages/jsx
+ * https://eslint.style/packages/default
  * @type {import("eslint").Linter.Config[]}
  */
 const style = [
   {
     plugins: {
-      '@stylistic/jsx': stylisticJsx,
+      '@stylistic': stylistic,
     },
 
     /**
-     * @type {import("@stylistic/eslint-plugin-jsx").RuleOptions}
+     * @type {import("@stylistic/eslint-plugin").RuleOptions}
      */
     rules: {
     },

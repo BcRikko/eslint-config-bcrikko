@@ -7,7 +7,7 @@ This repository is a custom ESLint configuration and used personally by B.C.Rikk
 This configuration depends on the following packages and plugins:
 
 - eslint
-- stylistic
+- @stylistic/eslint-plugin
 - typescript-eslint
 - eslint-plugin-import
 - eslint-plugin-jsx-a11y
