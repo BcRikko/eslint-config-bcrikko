@@ -1,13 +1,13 @@
 declare module 'eslint-config-bcrikko' {
-  import { Linter } from 'eslint';
+  import { Linter } from 'eslint'
 
-  const baseConfig: Linter.Config[];
-  export default baseConfig;
+  const baseConfig: Linter.Config[]
+  export default baseConfig
 }
 
 declare module 'eslint-config-bcrikko/react' {
-  import { Linter } from 'eslint';
+  import { Linter } from 'eslint'
 
-  const reactConfig: Linter.Config[];
-  export default reactConfig;
+  const reactConfig: Linter.Config[]
+  export default reactConfig
 }
